@@ -63,7 +63,6 @@ recommendation.
 ├── raw_issues.csv             # Raw issue data (generated)
 ├── analysis_summary.csv       # Final feature table used for regression (generated)
 ├── github_analytics.db        # SQLite database (generated)
-├── PROJECT_LOG.md             # Step-by-step build log, obstacles, and how they were solved
 └── README.md
 ```
 
@@ -102,5 +101,4 @@ python regression_analysis.py
 Built as a portfolio project to demonstrate the full data analytics lifecycle: sourcing data
 from an API, cleaning and aggregating with SQL, exploratory statistics, and — most
 importantly — catching and correcting a confounded finding rather than reporting the first
-significant correlation found. See [PROJECT_LOG.md](./PROJECT_LOG.md) for the full build
-process, including obstacles hit along the way and how they were resolved.
+significant correlation found. 
